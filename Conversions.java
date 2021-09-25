@@ -1,3 +1,9 @@
+/* Name : Alekhya Gollamudi
+Student ID : A00245382
+Java code for JAV1001-Lab1
+*/
+
+
 package java_Conversions;
 
 import java.util.Scanner;
@@ -8,10 +14,10 @@ public class Conversions {
 		
 		
 		
-		System.out.println("Enter the Exp number\n");
+		System.out.println("Enter the Exp number\n"); // asking input from user
 		System.out.println(" 1: conversion of Kms to Mi\n 2: Conversion of Mi to Kms\n 3: Conversion of Cm to In\n 4: Conversion of In to Cm\n 5: Conversion of Kg to lb\n 6: Conversion of lb to kg\n 7: Conversion of Litres to cups\n"); //Giving the options to User to select one 
-		Scanner input=new Scanner(System.in);
-		int num=input.nextInt();
+		Scanner input=new Scanner(System.in); // Scanner is used to take input from user
+		int num=input.nextInt(); 
 		
 		if(num==1)
 		{
